@@ -2,9 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def f(x):
-return 1591.47*x**2-10305.1*x+17116.93 #equação F(n)
+   return 215.9*x**2-2885.76*x+9867.47 #equação F(n)
 
-x = np.linspace(1.5, 5)
+x = np.linspace(4.5, 9)
 
 plt.plot(x, f(x), color='red')
 plt.legend()
